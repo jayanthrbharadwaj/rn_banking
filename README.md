@@ -5,7 +5,7 @@ React Native (Super App) boilerplate for Micro Front Ends
 
 Clone project with sub modules:
 ```bash
-git clone --recursive -j8 https://github.com/el173/rn-micro-frontend-boilerplate.git
+git clone --recursive -j8 https://github.com/jayanthrbharadwaj/rn_banking
 ```
 
 
