@@ -1,0 +1,33 @@
+{
+  "name": "@el173/rn-micro-frontend-boilerplate",
+  "private": true,
+  "scripts": {
+    "bootstrap": "yarn --cwd rn-mini-app-one && yarn --cwd rn-mini-app-two && yarn --cwd rn-mini-app-three && yarn --cwd rn-mini-app-four && yarn --cwd rn-super-app",
+    "pod-install": "cd rn-mini-app-one/ios/ && pod install && cd ../../rn-mini-app-two/ios/ && cd ../../rn-mini-app-three/ios/ && pod install && cd ../../rn-super-app/ios && pod install",
+    "start:app1": "yarn --cwd rn-mini-app-one start",
+    "start:app2": "yarn --cwd rn-mini-app-two start",
+    "start:app3": "yarn --cwd rn-mini-app-three start",
+    "start:app4": "yarn --cwd rn-mini-app-four start",
+    "start:host": "yarn --cwd rn-super-app start",
+    "run:host:ios": "yarn --cwd rn-super-app ios",
+    "run:host:android": "yarn --cwd rn-super-app android",
+    "run:app1:ios": "STANDALONE=1 yarn --cwd rn-mini-app-one ios",
+    "run:app1:android": "STANDALONE=1 yarn --cwd rn-mini-app-one android",
+    "run:app2:ios": "STANDALONE=1 yarn --cwd rn-mini-app-two ios",
+    "run:app2:android": "STANDALONE=1 yarn --cwd rn-mini-app-two android",
+    "run:app3:ios": "STANDALONE=1 yarn --cwd rn-mini-app-three ios",
+    "run:app3:android": "STANDALONE=1 yarn --cwd rn-mini-app-three android",
+    "run:app4:ios": "STANDALONE=1 yarn --cwd rn-mini-app-four ios",
+    "run:app4:android": "STANDALONE=1 yarn --cwd rn-mini-app-four android"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "dependencies": {
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/native-stack": "^6.10.0",
+    "@reduxjs/toolkit": "^2.2.6",
+    "react-native-safe-area-context": "^4.10.8",
+    "react-native-screens": "^3.32.0",
+    "react-redux": "^9.1.2",
+    "redux": "^5.0.1"
+  }
+}

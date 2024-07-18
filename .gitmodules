@@ -1,0 +1,15 @@
+[submodule "rn-super-app"]
+	path = rn-super-app
+	url = https://github.com/jayanthrbharadwaj/rn-super-app.git
+[submodule "rn-mini-app-one"]
+	path = rn-mini-app-one
+	url = https://github.com/jayanthrbharadwaj/rn-mini-app-one.git
+[submodule "rn-mini-app-two"]
+	path = rn-mini-app-two
+	url = https://github.com/jayanthrbharadwaj/rn-mini-app-two.git
+[submodule "rn-mini-app-three"]
+	path = rn-mini-app-three
+	url = https://github.com/jayanthrbharadwaj/rn-mini-app-three.git
+[submodule "rn-mini-app-four"]
+	path = rn-mini-app-four
+	url = https://github.com/jayanthrbharadwaj/rn-mini-app-four.git
